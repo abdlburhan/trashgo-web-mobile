@@ -16,6 +16,7 @@ interface Profile {
   email: string;
   phone: string | null;
   address: string | null;
+  avatar_url?: string | null;
   membership: "basic" | "weekly" | "monthly";
   join_date: string;
   total_pickup: number;
